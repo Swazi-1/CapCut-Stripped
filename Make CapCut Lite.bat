@@ -2,9 +2,12 @@
 title Make CapCut Lite
 echo.
 echo  Making CapCut Lite...
-echo  (CapCut will be closed. Nothing is deleted - removed parts are kept so you can undo.)
+echo  (CapCut will be closed. Removed parts are deleted for good - reinstall CapCut to get them back.)
 echo.
 powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0_files (don't touch)\lite.ps1" -ApplyAll >nul
+echo  Compressing CapCut on disk (a few minutes; CapCut works the same, it just uses less space)...
+powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0_files (don't touch)\compress.ps1"
+echo.
 powershell -NoProfile -ExecutionPolicy Bypass -Command "$f=\"$env:LOCALAPPDATA\CapCut\User Data\Config\updateInfo\"; if(Test-Path $f){ (Get-Content $f) -replace 'joinBeta=true','joinBeta=false' | Set-Content $f -Encoding ASCII }"
 set "PY=%LOCALAPPDATA%\Programs\Python\Python312\python.exe"
 if not exist "%PY%" set "PY="

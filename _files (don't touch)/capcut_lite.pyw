@@ -43,6 +43,8 @@ TABLE = [
     (0x6eeb890, "48895c", "31c0c3"),   # 26 the only builder of SplashScreen.qml (Pro / free-trial / Ultra start pop-up; also called from async callback 0x4ece068): return at once
     (0xc7c3990, "2e1f180602", "0600180602"),  # 13 editor EditPilot pill window: width = fixedWidth -> 0
     (0xc7c39d8, "2e20180602", "0600180602"),  # 13 height = fixedHeight -> 0 (window is transparent, so it is gone)
+    (0xd55ff88, "2e21180602", "0600180602"),  # 27 second EditPilot pill window ("Omni Agent" unit 0xd55d790): width = fixedWidth -> 0
+    (0xd55ffd0, "2e22180602", "0600180602"),  # 27 same, height = fixedHeight -> 0
     (0x4ed5830, "48895c", "31c0c3"),   # 2  old AI section
     (0x54f3fa0, "48895c", "31c0c3"),   # 1  card filter
     (0x5563f70, "40", "c3"),           # 7  home tool fallback
@@ -50,6 +52,8 @@ TABLE = [
     (0xd26011c, "68", "78"),           # 3  sidebar promo banner (copy 2)
     (0xd2eebb8, "2f67", "0a02"),       # 9  tool row hidden
     (0xd2f5038, "88", "00"),           # 11 card-row slot height 136 -> 0
+    (0xd2f50e0, "14", "00"),           # 28 new home layout: tool container topMargin 20 -> 0
+    (0xd2f5635, "40", "10"),           # 28 new home layout: Projects header topMargin 64 -> 16 (Projects right under Create project)
     (0xd3b7344, "4c", "58"),           # 8  "loading failed" text
     (0xd3b7d30, "11", "ad"),           # 10 card row hidden
     (0xd3b7d34, "08", "00"),

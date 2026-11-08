@@ -4,6 +4,7 @@
 This makes CapCut smaller and cleaner: no AI extras, no extra languages,
 no auto-updates, no crash reports, no "Join Pro" pop-ups and no AI cards on the home screen
 (the AI-cards part needs Python installed; without it that part is skipped).
+It also compresses CapCut on disk, so it takes about half the space.
 Editing and exporting work like normal.
 
 
@@ -13,7 +14,7 @@ SETTING IT UP ON A NEW PC
      Open it once so it finishes setting up, then close it.
 
   2. Double-click "Make CapCut Lite.bat".
-     A black window opens, does its thing for a few seconds,
+     A black window opens, does its thing for a minute or two,
      and tells you when it's finished. Press any key to close it.
 
   3. That's it. Open CapCut with the "CapCut Lite" shortcut on your desktop
@@ -41,7 +42,9 @@ WHEN CAPCUT UPDATES
 
 IF SOMETHING GOES WRONG
 
-  Run "Undo - normal CapCut.bat" and CapCut is back to how it was.
+  Uninstall CapCut, install it fresh from capcut.com and you have
+  normal CapCut again. (CapCut Lite deletes the parts it removes,
+  so there is no undo file.)
 
 
 Keep all these files together. The "_files (don't touch)" folder

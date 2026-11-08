@@ -9,19 +9,21 @@ It removes:
 - the "Join Pro" / subscription pop-ups and store panels
 - downloaded caches, and stops some of them from coming back
 
-On CapCut 9.7.1 this took the program from **1,849 MB to 1,179 MB**. Import, timeline editing, cut/split, text,
-transitions, audio, opening saved projects and export at 1080p and 4K (H.264) were all tested afterwards.
+It then compresses what's left with Windows' own file compression (CapCut works the same, the files just use less space).
 
-**Nothing is deleted.** Removed parts are moved to `%LOCALAPPDATA%\CapCut\_removed\`, so you can always undo.
+On CapCut 9.7.1 this took the program from **1,849 MB to about 540 MB on disk**. Import, timeline editing, cut/split,
+text, transitions, audio, opening saved projects and export at 1080p and 4K (H.264) were all tested afterwards.
+
+**Removed parts are deleted for good.** To get normal CapCut back, reinstall it from capcut.com.
 
 ## How to use
 
 1. Install CapCut from capcut.com like you normally would. Open it once, then close it.
 2. Download **CapCut-Lite-Kit.zip** from [Releases](https://github.com/Swazi-1/CapCut-Lite/releases/latest) and unzip it.
-3. Double-click **`Make CapCut Lite.bat`**. A window opens, works for a few seconds and tells you when it's finished.
+3. Double-click **`Make CapCut Lite.bat`**. A window opens, shows a progress bar for a few minutes and tells you when it's finished.
 4. Open CapCut with the **CapCut Lite** shortcut on your desktop and edit as usual. The first time you export, set **Codec** to **H.264**.
 
-Works for any Windows user name. Make CapCut Lite and Undo don't need admin rights.
+Works for any Windows user name. Make CapCut Lite doesn't need admin rights.
 
 ### Optional: offline mode
 
@@ -35,16 +37,16 @@ Updates bring the removed parts back. Run `Make CapCut Lite.bat` again.
 
 ### Something broken?
 
-Run **`Undo - normal CapCut.bat`** and CapCut is back to how it was.
+Uninstall CapCut and install it fresh from capcut.com. There is no undo file, because removed parts are deleted.
 
 ## What's in here
 
 | File | What it does |
 |---|---|
-| `Make CapCut Lite.bat` | Strips CapCut |
-| `Undo - normal CapCut.bat` | Puts everything back |
+| `Make CapCut Lite.bat` | Strips and compresses CapCut, makes the desktop shortcut |
 | `Offline mode ON.bat` / `OFF.bat` | Blocks / unblocks CapCut's internet |
-| `_files (don't touch)/lite.ps1` | Does the moving and restoring |
+| `_files (don't touch)/lite.ps1` | Deletes the parts on the list |
+| `_files (don't touch)/compress.ps1` | Compresses CapCut on disk (with a progress bar) |
 | `_files (don't touch)/lite-manifest.txt` | The list of what gets removed |
 | `_files (don't touch)/offline.ps1` | Creates / removes the firewall rules |
 | `_files (don't touch)/capcut_lite.pyw` | The CapCut Lite shortcut: starts CapCut and hides the AI and Pro clutter |

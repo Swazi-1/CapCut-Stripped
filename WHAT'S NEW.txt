@@ -7,12 +7,10 @@ Made for CapCut 9.7.1 (November 2026).
 FIRST VERSION
 
   - Smaller CapCut: AI agent, AI models, extra languages, crash reports,
-    auto-updates, promo pages and old caches moved out (to CapCut\_removed,
-    nothing deleted).
+    auto-updates, promo pages and old caches removed.
   - Home screen: AI cards and AI section removed, Projects moved up,
     sidebar promo banners and AI section removed.
   - Offline mode ON / OFF files.
-  - Undo file to get normal CapCut back.
 
 
 FIXES
@@ -53,6 +51,15 @@ NEW: SETUP
   - "Make CapCut Lite.bat" now does everything in one go: makes CapCut
     smaller, applies all the changes and puts the "CapCut Lite"
     shortcut on your desktop.
+  - CapCut is now also compressed on disk (Windows' own compression):
+    the program shrinks from about 1,160 MB to about 550 MB and works
+    exactly the same.
+  - Removed parts are now deleted for good instead of being kept in a
+    backup folder (CapCut\_removed). That folder is deleted too, which
+    frees about 850 MB more.
+  - The Undo file is gone. To get normal CapCut back, reinstall CapCut.
+  - Second EditPilot button (fresh installs) is hidden too.
+  - Projects sits right under "Create project" on the newer home screen.
   - Opening CapCut the normal way shows normal CapCut. Use the
     "CapCut Lite" shortcut for the clean version.
   - If CapCut updates to a new version, the shortcut changes nothing
