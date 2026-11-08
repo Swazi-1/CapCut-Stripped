@@ -1,4 +1,4 @@
-# CapCut Lite
+# CapCut Stripped
 
 Make the CapCut desktop app (Windows) smaller and cleaner, without breaking editing or exporting.
 
