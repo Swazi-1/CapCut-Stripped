@@ -1,59 +1,78 @@
-﻿CAPCUT LITE
-===========
+CAPCUT STRIPPED
+===============
 
-This makes CapCut smaller and cleaner: no AI extras, no extra languages,
-no auto-updates, no crash reports, no "Join Pro" pop-ups and no AI cards on the home screen
-(the AI-cards part needs Python installed; without it that part is skipped).
-It also compresses CapCut on disk, so it takes about half the space.
-Editing and exporting work like normal.
+CapCut, minus the clutter.
 
+No AI buttons everywhere, no "Try Pro" pop-ups every time you open it,
+and about a third of the disk space. Editing and exporting work exactly
+like before.
 
-SETTING IT UP ON A NEW PC
-
-  1. Install CapCut from capcut.com like you normally would.
-     Open it once so it finishes setting up, then close it.
-
-  2. Double-click "Make CapCut Lite.bat".
-     A black window opens, does its thing for a minute or two,
-     and tells you when it's finished. Press any key to close it.
-
-  3. That's it. Open CapCut with the "CapCut Lite" shortcut on your desktop
-     (it hides the AI cards, the EditPilot button and the editor's Generate row, AI avatar tab and the empty-media AI cards and the AI clipper bar and the "AI extend" clip-edge handle and the timeline AI extend and AI edit buttons and the "AI stylize" tab on a selected clip and the "Get 7 days free Pro" button at the top right and the Pro / free-trial and "CapCut Ultra" / "CapCut Pro" offer pop-ups; CapCut's own files stay
-     untouched, so online stickers and effects keep working).
-     Opening CapCut the normal way just shows normal CapCut.
-     The first time you export, set Codec to H.264.
+  Stock CapCut:      about 2,180 MB on disk
+  CapCut Stripped:   about 1,080 MB on disk
 
 
-OPTIONAL: TURN OFF CAPCUT'S INTERNET
+WHAT YOU GET
 
-  "Offline mode ON.bat" stops CapCut from going online,
-  so no tracking and no updates. Windows asks for permission, click Yes.
+  Gone:
+    - AI buttons and tabs in the editor (EditPilot, AI extend, AI edit,
+      AI stylize, AI avatar, Generate, AI clipper, and more)
+    - AI cards on the home screen
+    - "Get 7 days free Pro" button and the Pro / Ultra pop-ups at start
+    - Built-in AI models, extra languages, auto-updater, crash reports
 
-  The only catch: effects and transitions you've never used before
-  can't be downloaded while it's on. Use "Offline mode OFF.bat"
-  whenever you need new ones.
+  Still works:
+    - Importing, cutting, text, transitions, effects, stickers, audio
+    - Online stickers and effects
+    - Exporting in 1080p and 4K
+    - Your saved projects
+
+
+SET IT UP (3 STEPS)
+
+  1. Install CapCut from capcut.com. Open it once, then close it.
+
+  2. Double-click "Make CapCut Stripped.bat".
+     A black window opens with a progress bar. It takes a few minutes.
+     When it says DONE, press any key.
+
+  3. Open CapCut with the new "CapCut Stripped" shortcut on your desktop.
+
+  Tip: the first time you export, set Codec to H.264.
+
+
+GOOD TO KNOW
+
+  * Always use the "CapCut Stripped" shortcut. Opening CapCut the normal
+    way shows normal CapCut (with all the AI stuff).
+
+  * The shortcut needs Python (free, from python.org). Without Python,
+    CapCut still gets smaller, but the AI buttons and pop-ups stay.
+
+  * If CapCut is already running when you click the shortcut, nothing
+    gets hidden. Close CapCut fully and use the shortcut again.
+
+  * The removed parts are deleted for good. There is no undo.
+    Want normal CapCut back? Uninstall it and install it fresh
+    from capcut.com.
+
+
+OPTIONAL: OFFLINE MODE
+
+  "Offline mode ON.bat" blocks CapCut from the internet: no tracking,
+  no updates. Windows asks for permission, click Yes.
+
+  The catch: effects you've never used before can't download while
+  it's on. Run "Offline mode OFF.bat" when you need new ones.
 
 
 WHEN CAPCUT UPDATES
 
-  Updates bring the removed stuff back. Just run
-  "Make CapCut Lite.bat" again.
-
-
-IF SOMETHING GOES WRONG
-
-  Uninstall CapCut, install it fresh from capcut.com and you have
-  normal CapCut again. (CapCut Lite deletes the parts it removes,
-  so there is no undo file.)
+  An update brings everything back. Run "Make CapCut Stripped.bat" again.
+  The shortcut is made for CapCut 9.7.1.4203. On other versions CapCut
+  just starts normally, nothing breaks.
 
 
 Keep all these files together. The "_files (don't touch)" folder
-is what makes the other files work.
+is what makes everything work.
 
 Made for CapCut 9.7.1 (November 2026).
-
-
-
-
-
-
