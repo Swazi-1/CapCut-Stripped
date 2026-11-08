@@ -1,0 +1,47 @@
+﻿CAPCUT LITE
+===========
+
+This makes CapCut smaller and cleaner: no AI extras, no extra languages,
+no auto-updates, no crash reports and no "Join Pro" pop-ups.
+Editing and exporting work like normal.
+
+
+SETTING IT UP ON A NEW PC
+
+  1. Install CapCut from capcut.com like you normally would.
+     Open it once so it finishes setting up, then close it.
+
+  2. Double-click "Make CapCut Lite.bat".
+     A black window opens, does its thing for a few seconds,
+     and tells you when it's finished. Press any key to close it.
+
+  3. That's it. Open CapCut and edit as usual.
+     The first time you export, set Codec to H.264.
+
+
+OPTIONAL: TURN OFF CAPCUT'S INTERNET
+
+  "Offline mode ON.bat" stops CapCut from going online,
+  so no tracking and no updates. Windows asks for permission, click Yes.
+
+  The only catch: effects and transitions you've never used before
+  can't be downloaded while it's on. Use "Offline mode OFF.bat"
+  whenever you need new ones.
+
+
+WHEN CAPCUT UPDATES
+
+  Updates bring the removed stuff back. Just run
+  "Make CapCut Lite.bat" again.
+
+
+IF SOMETHING GOES WRONG
+
+  Run "Undo - normal CapCut.bat" and CapCut is back to how it was.
+
+
+Keep all these files together. The "_files (don't touch)" folder
+is what makes the other files work.
+
+Made for CapCut 9.7.1 (November 2026).
+

@@ -1,0 +1,162 @@
+﻿# CapCut Lite manifest: items parked in CapCut\_removed. {APP} = Apps\<version>, {UD} = User Data
+# s1-updater (0.9 MB) + updateInfo joinBeta=false
+{APP}\CapCut-DiffUpgrade.exe
+{APP}\hpatchz.exe
+{APP}\courgette64.exe
+# s2-crash-reporting (11 MB)
+{APP}\parfait_crash_handler.exe
+{APP}\VECrashHandler.exe
+{APP}\minidump_stackwalk.exe
+{APP}\minidump_stackwalk.dll
+{APP}\feedbacktool.exe
+# s4-service-shellext (3.8 MB)
+{APP}\Service
+# s5-language-packs (37.4 MB)
+{APP}\Resources\po\cs-CZ.po
+{APP}\Resources\po\de-DE.po
+{APP}\Resources\po\el-GR.po
+{APP}\Resources\po\es-LA.po
+{APP}\Resources\po\fi-FI.po
+{APP}\Resources\po\fil-PH.po
+{APP}\Resources\po\fr-FR.po
+{APP}\Resources\po\hu-HU.po
+{APP}\Resources\po\id-ID.po
+{APP}\Resources\po\it-IT.po
+{APP}\Resources\po\ja-JP.po
+{APP}\Resources\po\ko-KR.po
+{APP}\Resources\po\ms-MY.po
+{APP}\Resources\po\nl-NL.po
+{APP}\Resources\po\pl-PL.po
+{APP}\Resources\po\pt-BR.po
+{APP}\Resources\po\ro-RO.po
+{APP}\Resources\po\ru-RU.po
+{APP}\Resources\po\sv-SE.po
+{APP}\Resources\po\th-TH.po
+{APP}\Resources\po\tr-TR.po
+{APP}\Resources\po\vi-VN.po
+{APP}\Resources\po\zh-Hans.po
+{APP}\Resources\po\zh-Hant-TW.po
+# s3b-push-exes-only (0.5 MB)
+{APP}\push_detect.exe
+{APP}\ttdaemon.exe
+# s6-ai-models (218.8 MB)
+{APP}\Resources\models
+# s7-agent-runtime (151.4 MB)
+{APP}\bun.exe
+{APP}\Resources\common_agent
+# s8-agent-dlls (44.9 MB)
+{APP}\deepagents_capi.dll
+{APP}\DeepAgentsService.dll
+{APP}\agent_runtime_addon.node
+# s9-openvino (16.8 MB)
+{APP}\openvino.dll
+{APP}\openvino_intel_npu_plugin.dll
+{APP}\openvino_ir_frontend.dll
+{APP}\bytenn_openvinowrapper.dll
+# s10-speechsdk (7.9 MB)
+{APP}\speechsdk.dll
+# s11-ai-vm (8.5 MB)
+{APP}\vm_sdk
+{APP}\x64
+{APP}\x86
+# s12-python (11.7 MB)
+{APP}\_internal
+# s13-promo-store-ui (42 MB)
+{APP}\Resources\lynx_config
+{APP}\Resources\image_h5_material_publish
+{APP}\Resources\image_h5_text_template_publish
+{APP}\Resources\image_h5_sticker_publish
+{APP}\Resources\image_h5_text_effect_publish
+{APP}\Resources\image_h5_smart_edit_chat_bot
+{APP}\Resources\deeplink_local_refer_res.mp4
+{APP}\Resources\deeplink_local_captions_res.mp4
+{APP}\Resources\deeplink_local_video_res.mp4
+{APP}\Resources\Guide
+{APP}\Resources\oobe
+{APP}\Resources\lvop_intelligent_crop
+# s14c-cef-locales (37.1 MB)
+{APP}\cef\locales\af.pak
+{APP}\cef\locales\am.pak
+{APP}\cef\locales\ar.pak
+{APP}\cef\locales\bg.pak
+{APP}\cef\locales\bn.pak
+{APP}\cef\locales\ca.pak
+{APP}\cef\locales\cs.pak
+{APP}\cef\locales\da.pak
+{APP}\cef\locales\de.pak
+{APP}\cef\locales\el.pak
+{APP}\cef\locales\en-GB.pak
+{APP}\cef\locales\es-419.pak
+{APP}\cef\locales\es.pak
+{APP}\cef\locales\et.pak
+{APP}\cef\locales\fa.pak
+{APP}\cef\locales\fi.pak
+{APP}\cef\locales\fil.pak
+{APP}\cef\locales\fr.pak
+{APP}\cef\locales\gu.pak
+{APP}\cef\locales\he.pak
+{APP}\cef\locales\hi.pak
+{APP}\cef\locales\hr.pak
+{APP}\cef\locales\hu.pak
+{APP}\cef\locales\id.pak
+{APP}\cef\locales\it.pak
+{APP}\cef\locales\ja.pak
+{APP}\cef\locales\kn.pak
+{APP}\cef\locales\ko.pak
+{APP}\cef\locales\lt.pak
+{APP}\cef\locales\lv.pak
+{APP}\cef\locales\ml.pak
+{APP}\cef\locales\mr.pak
+{APP}\cef\locales\ms.pak
+{APP}\cef\locales\nb.pak
+{APP}\cef\locales\nl.pak
+{APP}\cef\locales\pl.pak
+{APP}\cef\locales\pt-BR.pak
+{APP}\cef\locales\pt-PT.pak
+{APP}\cef\locales\ro.pak
+{APP}\cef\locales\ru.pak
+{APP}\cef\locales\sk.pak
+{APP}\cef\locales\sl.pak
+{APP}\cef\locales\sr.pak
+{APP}\cef\locales\sv.pak
+{APP}\cef\locales\sw.pak
+{APP}\cef\locales\ta.pak
+{APP}\cef\locales\te.pak
+{APP}\cef\locales\th.pak
+{APP}\cef\locales\tr.pak
+{APP}\cef\locales\uk.pak
+{APP}\cef\locales\ur.pak
+{APP}\cef\locales\vi.pak
+{APP}\cef\locales\zh-CN.pak
+{APP}\cef\locales\zh-TW.pak
+# s15-cef-extras (28.3 MB)
+{APP}\cef\vk_swiftshader.dll
+{APP}\cef\vk_swiftshader_icd.json
+{APP}\cef\chrome_200_percent.pak
+{APP}\cef\dxcompiler.dll
+{APP}\cef\dxil.dll
+# s16-user-cache (988.5 MB)
+{UD}\Cache
+{UD}\CEF
+{UD}\Tracking
+{UD}\ByteBench
+{UD}\Log
+# s18-draft-converter (22.3 MB)
+{APP}\Tools\draft-converter
+# s21-sandbox-worker (0.4 MB)
+{APP}\pc_sandbox_oracle_worker.exe
+# s23-nvjpeg (7.3 MB)
+{APP}\nvjpeg64_12.dll
+# s24-opengl-software (19.7 MB)
+{APP}\opengl32sw.dll
+# s28-models-blocker: read-only file stops AI model re-download (media_search came back after s6)
+BLOCK {APP}\Resources\models
+# s29-block-gecko (64.2 MB)
+BLOCK {UD}\Cache\GeckoCpp
+# s30-block-dyndownloader (35.7 MB)
+BLOCK {UD}\Cache\DynamicDownloader
+# s31-block-ai-cache (5.5 MB)
+BLOCK {UD}\Cache\AITextTemplate
+BLOCK {UD}\Cache\SmartCrop
+# s33-ttnet-addon (0.1 MB)
+{APP}\ttnet_frontier_addon.node
