@@ -152,11 +152,16 @@
 # s28-models-blocker: read-only file stops AI model re-download (media_search came back after s6)
 BLOCK {APP}\Resources\models
 # s29-block-gecko (64.2 MB)
-BLOCK {UD}\Cache\GeckoCpp
+# (off: broke online materials) BLOCK {UD}\Cache\GeckoCpp
 # s30-block-dyndownloader (35.7 MB)
-BLOCK {UD}\Cache\DynamicDownloader
+# (off: broke online materials) BLOCK {UD}\Cache\DynamicDownloader
 # s31-block-ai-cache (5.5 MB)
 BLOCK {UD}\Cache\AITextTemplate
 BLOCK {UD}\Cache\SmartCrop
 # s33-ttnet-addon (0.1 MB)
 {APP}\ttnet_frontier_addon.node
+# s34-cef-graphics (13.4 MB) ANGLE/Vulkan/D3D compiler copies; web views tested OK without them
+{APP}\cef\libGLESv2.dll
+{APP}\cef\libEGL.dll
+{APP}\cef\d3dcompiler_47.dll
+{APP}\cef\vulkan-1.dll

@@ -1,0 +1,59 @@
+CAPCUT LITE - WHAT'S NEW
+========================
+
+Made for CapCut 9.7.1 (November 2026).
+
+
+FIRST VERSION
+
+  - Smaller CapCut: AI agent, AI models, extra languages, crash reports,
+    auto-updates, promo pages and old caches moved out (to CapCut\_removed,
+    nothing deleted).
+  - Home screen: AI cards and AI section removed, Projects moved up,
+    sidebar promo banners and AI section removed.
+  - Offline mode ON / OFF files.
+  - Undo file to get normal CapCut back.
+
+
+FIXES
+
+  - Online stickers, effects and other online panels said "No internet
+    connection". Fixed: CapCut's own files now stay original, and the
+    changes are made only while CapCut runs, through the new
+    "CapCut Lite" desktop shortcut.
+  - Online materials broke because two download folders were blocked.
+    They are no longer blocked.
+  - Start pop-ups are gone for real (the first fixes did not catch every
+    way CapCut opens them).
+
+
+NEW: REMOVED IN THE EDITOR
+
+  - EditPilot button (bottom right).
+  - "Generate" row (with the AI badge) in the left sidebar.
+  - "AI avatar" tab in the top tab bar.
+  - "No media? Create with these tools" cards in an empty media panel.
+  - "AI clipper / Try for free" bar at the bottom of the media panel.
+  - "AI extend" button in the timeline toolbar (and the AI extend handle
+    on the clip edge).
+  - "AI edit" (magic wand) button in the timeline toolbar.
+  - "AI stylize" tab on the right when a clip is selected.
+
+
+NEW: NO MORE PRO / ULTRA ADS
+
+  - "Get 7 days free Pro" button at the top right.
+  - Pop-ups when CapCut starts: "CapCut Pro", "7-day free trial",
+    "Try CapCut Pro for free", "CapCut Ultra is live", and other
+    server pop-ups.
+
+
+NEW: SETUP
+
+  - "Make CapCut Lite.bat" now does everything in one go: makes CapCut
+    smaller, applies all the changes and puts the "CapCut Lite"
+    shortcut on your desktop.
+  - Opening CapCut the normal way shows normal CapCut. Use the
+    "CapCut Lite" shortcut for the clean version.
+  - If CapCut updates to a new version, the shortcut changes nothing
+    (it only fits 9.7.1), so CapCut still starts normally.
